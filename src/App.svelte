@@ -3,14 +3,13 @@
 </script>
 
 <main>
-  <h1>Spellmason</h1>
+  <h1>Spellmasons</h1>
+  <h2>A game where you can make up new spells with your friends</h2>
   <p>
-    A multiplayer, strategy card game that lets you combine small spells into
-    larger, epic spells to decimate your enemies
+    A multiplayer, tactical turn-based wizarding game where you use spell ingredients to create epic spells to decimate your enemies!
   </p>
   <p>
-    You play a Spellmason, who hasn't finished wizard school yet, and so must
-    make up their own spells!
+    You play a Spellmason: a craftsman of magic, a alchemist of the elements, a conjurer of enchantments 
   </p>
   <p>
     Say that you're surrounded, the enemies are closing in. You cast "swap" to
@@ -21,14 +20,23 @@
     now-fearful scraps of the enemy horde.
   </p>
   <SocialLinks />
+  <p>Spellmasons is currently in active development and is coming soon!</p>
 </main>
 
 <style>
+  :global(body) {
+    background-color: #9de8be;
+  }
   main {
     text-align: center;
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
+    border-radius: 5px 5px;
+    background-color:#fafafa;
+  }
+  p {
+    text-align: left;
   }
 
   h1 {
@@ -40,7 +48,7 @@
 
   @media (min-width: 640px) {
     main {
-      max-width: none;
+      max-width: 720px;
     }
   }
 </style>

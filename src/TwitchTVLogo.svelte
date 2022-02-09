@@ -18,7 +18,7 @@
         fill: #9146ff;
       }
     </style>
-    <title>Watch Spellmason on Twitch</title>
+    <title>Watch Spellmasons on Twitch</title>
     <g>
       <polygon
         class="st0"
