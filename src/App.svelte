@@ -6,10 +6,12 @@
   <h1>Spellmasons</h1>
   <h2>A game where you can make up new spells with your friends</h2>
   <p>
-    A multiplayer, tactical turn-based wizarding game where you use spell ingredients to create epic spells to decimate your enemies!
+    A multiplayer, tactical turn-based wizarding game where you use spell
+    ingredients to create epic spells to decimate your enemies!
   </p>
   <p>
-    You play a Spellmason: a craftsman of magic, a alchemist of the elements, a conjurer of enchantments 
+    You play a Spellmason: a craftsman of magic, a alchemist of the elements, a
+    conjurer of enchantments
   </p>
   <p>
     Say that you're surrounded, the enemies are closing in. You cast "swap" to
@@ -25,15 +27,15 @@
 
 <style>
   :global(body) {
-    background-color: #9de8be;
+    background-color: #fefefe;
   }
   main {
     text-align: center;
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
-    border-radius: 5px 5px;
-    background-color:#fafafa;
+    border-radius: 7px 7px;
+    background-color: #fafafa;
   }
   p {
     text-align: left;
