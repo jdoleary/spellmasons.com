@@ -1,0 +1,8 @@
+{
+    "servers": [
+        {
+            "name": "Community Server 1 - NY",
+            "url": "wss://websocketpie-3oyno.ondigitalocean.app/"
+        }
+    ]
+}
