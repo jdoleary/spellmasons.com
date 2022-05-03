@@ -7,16 +7,13 @@
 <div id="links">
   <InstagramLogo />
   <a
-    href="https://twitter.com/SpellmasonGame?ref_src=twsrc%5Etfw"
+    href="https://twitter.com/nestfall?ref_src=twsrc%5Etfw"
     class="twitter-follow-button"
-    data-size="large"
-    data-show-screen-name="false"
-    data-show-count="false">Follow @SpellmasonGame</a
+    data-show-count="false">Follow @nestfall</a
   ><script
     async
     src="https://platform.twitter.com/widgets.js"
     charset="utf-8"></script>
-
   <TwitchTvLogo />
   <!-- <YoutubeLink /> -->
 </div>

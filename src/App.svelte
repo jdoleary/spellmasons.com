@@ -1,10 +1,11 @@
 <script>
   import SocialLinks from "./SocialLinks.svelte";
+  import TwitterTimeline from "./TwitterTimelineEmbed.svelte";
 </script>
 
 <main>
   <h1>Spellmasons</h1>
-  <h2>A game where you can make up new spells with your friends</h2>
+  <h2>Multiplayer, Turn-Based, Spell-Mixing Game</h2>
   <p>
     A multiplayer, tactical turn-based wizarding game where you use spell
     ingredients to create epic spells to decimate your enemies!
@@ -23,6 +24,7 @@
   </p>
   <SocialLinks />
   <p>Spellmasons is currently in active development and is coming soon!</p>
+  <TwitterTimeline />
 </main>
 
 <style>
