@@ -24,7 +24,7 @@
   </p>
   <SocialLinks />
   <p>Spellmasons is currently in active development and is coming soon!</p>
-  <TwitterTimeline />
+  <!-- <TwitterTimeline /> -->
 </main>
 
 <style>

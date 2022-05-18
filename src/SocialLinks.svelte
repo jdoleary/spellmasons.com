@@ -7,9 +7,9 @@
 <div id="links">
   <InstagramLogo />
   <a
-    href="https://twitter.com/nestfall?ref_src=twsrc%5Etfw"
+    href="https://twitter.com/spellmasons?ref_src=twsrc%5Etfw"
     class="twitter-follow-button"
-    data-show-count="false">Follow @nestfall</a
+    data-show-count="false">Follow @spellmasons</a
   ><script
     async
     src="https://platform.twitter.com/widgets.js"
