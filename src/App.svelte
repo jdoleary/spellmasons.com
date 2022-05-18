@@ -4,8 +4,22 @@
 </script>
 
 <main>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/wBTThF_m01g"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  />
   <h1>Spellmasons</h1>
   <h2>Multiplayer, Turn-Based, Spell-Mixing Game</h2>
+  <SocialLinks />
+  <p>
+    🎨💸 Looking for an artist to hire for paid work (DM or email me if
+    interested - @spellmasons / spellmasons@gmail.com)
+  </p>
   <p>
     A multiplayer, tactical turn-based wizarding game where you use spell
     ingredients to create epic spells to decimate your enemies!
@@ -22,9 +36,8 @@
     have turned and your small army will charge into battle against the
     now-fearful scraps of the enemy horde.
   </p>
-  <SocialLinks />
   <p>Spellmasons is currently in active development and is coming soon!</p>
-  <!-- <TwitterTimeline /> -->
+  <TwitterTimeline />
 </main>
 
 <style>
