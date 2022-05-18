@@ -4,6 +4,7 @@
 </script>
 
 <main>
+  <img id="logo" src="spellmasons-logo.png" alt="Spellmasons Logo" />
   <iframe
     width="560"
     height="315"
@@ -13,8 +14,7 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   />
-  <h1>Spellmasons</h1>
-  <h2>Multiplayer, Turn-Based, Spell-Mixing Game</h2>
+  <h2>Multiplayer, Turn-Based, Roguelike, Spellmixing Game</h2>
   <SocialLinks />
   <p>
     🎨💸 Looking for an artist to hire for paid work (DM or email me if
@@ -42,15 +42,19 @@
 
 <style>
   :global(body) {
-    background-color: #fefefe;
+    background-color: #4a4949;
+  }
+  #logo {
+    max-width: 100%;
+    padding: 8px;
   }
   main {
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     max-width: 240px;
     margin: 0 auto;
     border-radius: 7px 7px;
-    background-color: #fafafa;
+    background-color: #c8a0d7;
   }
   p {
     text-align: left;
