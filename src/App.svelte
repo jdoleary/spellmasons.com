@@ -1,10 +1,8 @@
 <script>
   import SocialLinks from "./SocialLinks.svelte";
-  import TwitterTimeline from "./TwitterTimelineEmbed.svelte";
 </script>
 
 <main>
-  <img id="logo" src="spellmasons-logo.png" alt="Spellmasons Logo" />
   <iframe
     width="560"
     height="315"
@@ -14,30 +12,8 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   />
-  <h2>Multiplayer, Turn-Based, Roguelike, Spellmixing Game</h2>
+  <h2>Multiplayer, Turn-Based, Roguelike, Spellmixing</h2>
   <SocialLinks />
-  <p>
-    🎨💸 Looking for an artist to hire for paid work (DM or email me if
-    interested - @spellmasons / spellmasons@gmail.com)
-  </p>
-  <p>
-    A multiplayer, tactical turn-based wizarding game where you use spell
-    ingredients to create epic spells to decimate your enemies!
-  </p>
-  <p>
-    You play a Spellmason: a craftsman of magic, a alchemist of the elements, a
-    conjurer of enchantments
-  </p>
-  <p>
-    Say that you're surrounded, the enemies are closing in. You cast "swap" to
-    change places with one on the outside. Then you cast "Area of Effect",
-    "Damage", and "Resurrect", killing all the enemies who surrounded you a
-    moment before and resurrecting them to join your faction. Now the tables
-    have turned and your small army will charge into battle against the
-    now-fearful scraps of the enemy horde.
-  </p>
-  <p>Spellmasons is currently in active development and is coming soon!</p>
-  <TwitterTimeline />
 </main>
 
 <style>

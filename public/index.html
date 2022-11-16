@@ -4,43 +4,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="p:domain_verify" content="7af2b32b556a867df8f9ff23df80b70a" />
-  <!-- Pinterest Tag -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11016773393"></script>
   <script>
-    !function (e) {
-      if (!window.pintrk) {
-        window.pintrk = function () {
-          window.pintrk.queue.push(Array.prototype.slice.call(arguments))
-        }; var
-          n = window.pintrk; n.queue = [], n.version = "3.0"; var
-            t = document.createElement("script"); t.async = !0, t.src = e; var
-              r = document.getElementsByTagName("script")[0];
-        r.parentNode.insertBefore(t, r)
-      }
-    }("https://s.pinimg.com/ct/core.js");
-    pintrk('load', '2613825346071', { em: '<user_email_address>' });
-    pintrk('page');
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11016773393');
   </script>
-  <noscript>
-    <img height="1" width="1" style="display:none;" alt=""
-      src="https://ct.pinterest.com/v3/?event=init&tid=2613825346071&pd[em]=<hashed_email_address>&noscript=1" />
-  </noscript>
-  <!-- end Pinterest Tag -->
-  <meta http-equiv="refresh" content="0;url=https://store.steampowered.com/app/1618380?utm_source=com">
+
+
+  <!-- <meta http-equiv="refresh" content="0;url=https://store.steampowered.com/app/1618380?utm_source=com"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      background-color: #111213;
+      flex-direction: column;
+      gap: 20px;
+    }
+  </style>
 
   <title>Spellmasons</title>
 
   <script type="text/javascript">
     // Redirect to steam page, also there is a meta tag above that redirects to steam.
-    window.location.href = "https://store.steampowered.com/app/1618380?utm_source=com";
+    // window.location.href = "https://store.steampowered.com/app/1618380?utm_source=com";
   </script>
 
-  <link rel="stylesheet" href="/global.css" />
-  <link rel="stylesheet" href="/build/bundle.css" />
-
-  <script defer src="/build/bundle.js"></script>
 </head>
 
-<body></body>
+<body>
+  <img id="logo" src="spellmasonsLogoWithGlow-ForWeb.png" alt="Spellmasons Logo" />
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dfU-HcO16OI" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <iframe src="https://store.steampowered.com/widget/1618380/" frameborder="0" width="646" height="190"></iframe>
+</body>
 
 </html>
