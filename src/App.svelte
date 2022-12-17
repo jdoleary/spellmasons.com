@@ -20,10 +20,6 @@
   :global(body) {
     background-color: #4a4949;
   }
-  #logo {
-    max-width: 100%;
-    padding: 8px;
-  }
   main {
     text-align: center;
     padding: 2em;
@@ -31,9 +27,6 @@
     margin: 0 auto;
     border-radius: 7px 7px;
     background-color: #c8a0d7;
-  }
-  p {
-    text-align: left;
   }
 
   h1 {
