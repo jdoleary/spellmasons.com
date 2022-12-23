@@ -65,3 +65,54 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+.button-wrapper {
+	border: 16px solid;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 250;
+	border-image-source: url("/ui/Assets_Icon_Border_QtrCircle_2_Purple.png");
+	border-image-width: 1;
+	transition: 0.2s;
+	/* Allow button to scale without blurring. Credit: https://stackoverflow.com/a/16878602/4418836 */
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	-webkit-font-smoothing: subpixel-antialiased;
+	/* background-clip ensures that the background color wont overlap the border */
+	background-clip: padding-box;
+	background-color: #483f8e;
+}
+
+a .button-wrapper {
+	margin: 0 8px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.ui-border {
+	border: 16px solid;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-image-slice: 250;
+	border-image-source: url("/ui/Assets_Icon_Border_QtrCircle_3.png");
+	border-image-width: 1;
+	box-sizing: border-box;
+	/* Prevent child elements from becoming bigger than the screen */
+	max-height: 100%;
+	display: flex;
+	/* background-clip ensures that the background color wont overlap the border */
+	background-clip: padding-box;
+	background-color: #262324;
+}
+
+#content {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	border-radius: 4px;
+	padding: 24px;
+	color: white;
+}

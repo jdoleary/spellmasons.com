@@ -3,10 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="p:domain_verify" content="7af2b32b556a867df8f9ff23df80b70a" />
-
   <link rel="icon" type="image/x-icon" href="/spellmasons-icon.ico">
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11016773393"></script>
   <script>
@@ -16,8 +13,10 @@
 
     gtag('config', 'AW-11016773393');
   </script>
-
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="Spellmasons: A tactical, turn-based roguelike where you combine spells to create emergent consequenses!" />
+  <link rel="stylesheet" href="global.css">
   <style>
     body {
       width: 100vw;
@@ -43,6 +42,15 @@
     #content>* {
       max-width: 100%;
     }
+
+    #content p.readable {
+
+      max-width: 600px;
+    }
+
+    p {
+      color: white;
+    }
   </style>
 
   <title>Spellmasons</title>
@@ -51,14 +59,20 @@
 
 <body>
   <main>
-    <div id="content">
+    <div id="content" class="ui-border">
       <img id="logo" src="spellmasonsLogoWithGlow-ForWeb.png" alt="Spellmasons Logo" />
+      <p class="readable">
+        Spellmasons is a turn-based, tactical roguelike where you devise spell combinations to overcome an
+        onslaught of relentless enemies. Team up with your friends in online cooperative multiplayer, and delve
+        into the intricacies of magic where clever combinations yield powerfully satisfying results.
+      </p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/DbPWtmsE448" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
       <iframe src="https://store.steampowered.com/widget/1618380/" frameborder="0" width="646" height="190"></iframe>
       <div class="bottom">
         <a class="" href="presskit.html">Presskit</a>
+        |
         <a class="twitter-timeline" href="https://twitter.com/spellmasons">Tweets by Spellmasons</a>
       </div>
     </div>
