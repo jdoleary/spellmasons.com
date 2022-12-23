@@ -83,11 +83,21 @@ button:focus {
 	background-color: #483f8e;
 }
 
+.button-wrapper.secondary {
+	border-image-source: url("/ui/Assets_Icon_Border_QtrCircle_1.png");
+	background-color: #262324;
+
+}
+
 a .button-wrapper {
 	margin: 0 8px;
 	text-align: center;
 	color: white;
 	text-decoration: none;
+}
+
+.button-wrapper:hover {
+	filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
 }
 
 .ui-border {
@@ -115,4 +125,12 @@ a .button-wrapper {
 	border-radius: 4px;
 	padding: 24px;
 	color: white;
+}
+
+.flex {
+	display: flex;
+}
+
+.gap-15 {
+	gap: 15px;
 }
