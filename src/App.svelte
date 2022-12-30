@@ -28,17 +28,4 @@
     border-radius: 7px 7px;
     background-color: #c8a0d7;
   }
-
-  h1 {
-    color: #3858c0;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: 720px;
-    }
-  }
 </style>
