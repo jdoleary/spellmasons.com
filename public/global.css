@@ -194,6 +194,9 @@ h2 {
 	max-width: 25%;
 }
 
+iframe {
+	margin: 0 auto;
+}
 
 #assets img {
 	max-width: 100%;
