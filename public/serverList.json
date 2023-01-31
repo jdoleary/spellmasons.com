@@ -6,15 +6,9 @@
             "region": "US - east"
         },
         {
-            "name": "Community Server 2 - Orca",
-            "url": "wss://orca-app-99xgk.ondigitalocean.app/",
-            "region": "US - east"
-        },
-        {
-            "name": "Community Server 3 - Walrus",
+            "name": "Community Server 2 - Walrus",
             "url": "wss://walrus-app-rumlh.ondigitalocean.app/",
             "region": "US - west"
-
         }
     ],
     "message": "Welcome to Spellmasons launch week!"
