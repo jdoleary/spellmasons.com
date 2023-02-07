@@ -9,7 +9,12 @@
             "name": "Community Server 2 - Walrus",
             "url": "wss://walrus-app-rumlh.ondigitalocean.app/",
             "region": "US - west"
+        },
+        {
+            "name": "Community Server 3 - Lion",
+            "url": "wss://lion-app-w5w4c.ondigitalocean.app/",
+            "region": "Europe"
         }
     ],
-    "message": "Update v1.5.0 is launching at 8AM EST.  Servers will reboot for the update."
+    "message": "Welcome and thanks for playing! I am making good progress at resolving desychronization bugs in multiplayer servers, but there are some issues that are still present that I am working on.  Thank you for your patience!  I update the Discord regularly with status updates."
 }
