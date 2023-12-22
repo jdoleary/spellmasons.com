@@ -14,6 +14,11 @@
             "name": "Community Server 3 - Lion",
             "url": "wss://lion-app-w5w4c.ondigitalocean.app/",
             "region": "Europe"
+        },
+        {
+            "name": "Community Server 4 - Dolphin",
+            "url": "wss://squid-app-r8p8w.ondigitalocean.app/",
+            "region": "Asia"
         }
     ],
     "message": "Welcome and thanks for playing! Checkout our Discord channel to see what's new and what's upcoming!"
