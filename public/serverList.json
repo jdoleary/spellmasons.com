@@ -24,6 +24,6 @@
     "message": "Welcome and thanks for playing! Checkout our Discord channel to see what's new and what's upcoming!",
     "config": {
         "useEventLogger": true,
-        "keepEventsForMillis": 604800000
+        "keepEventsForMillis": 10800000
     }
 }
