@@ -1,6 +1,11 @@
 {
     "servers": [
         {
+            "name": "Community Server - Raven",
+            "url": "wss://raven-app-quq99.ondigitalocean.app/",
+            "region": "US - east"
+        },
+        {
             "name": "Community Server - Shark",
             "url": "wss://shark-app-ke27n.ondigitalocean.app/",
             "region": "US - east"
