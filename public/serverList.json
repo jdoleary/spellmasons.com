@@ -11,11 +11,6 @@
             "region": "US - east"
         },
         {
-            "name": "Community Server - Seashell",
-            "url": "wss://seashell-app-gu6mc.ondigitalocean.app/",
-            "region": "US - east"
-        },
-        {
             "name": "Community Server - Walrus",
             "url": "wss://walrus-app-rumlh.ondigitalocean.app/",
             "region": "US - west"
