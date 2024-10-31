@@ -100,9 +100,10 @@ function animateMenu() {
             const newX = x + result.x;
             const newY = y + result.y;
             if (!isNaN(newX) && !isNaN(newY)) {
-                el.dataset.x = (x + result.x).toString();
-                el.dataset.y = (y + result.y).toString();
-                el.style.transform = `translate(${x + result.x}px, ${y + result.y}px)`;
+                // el.dataset.x = (x + result.x).toString();
+                // el.dataset.y = (y + result.y).toString();
+                // el.style.transform = `translate(${x + result.x}px, ${y + result.y}px)`;
+                // el.style.MozTransform = `translate(${x + result.x}px, ${y + result.y}px)`;
             }
 
         }
