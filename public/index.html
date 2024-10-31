@@ -17,7 +17,7 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description"
-    content="Spellmasons: A tactical, turn-based roguelike where you combine spells to create emergent consequenses!" />
+    content="Spellmasons: A multiplayer, tactical roguelike where you combine spells inside a deep magic system!" />
   <link rel="stylesheet" href="global.css">
 
   <title>Spellmasons</title>
@@ -26,32 +26,40 @@
 
 <body>
   <main>
-    <div id="content" class="ui-border">
-      <img id="logo" src="spellmasonsLogoWithGlow-ForWeb.png" alt="Spellmasons Logo" />
-      <p class="readable">
-        Spellmasons is a turn-based, tactical roguelike where you devise spell combinations to overcome an
-        onslaught of relentless enemies. Team up with your friends in online cooperative multiplayer, and delve
-        into the intricacies of magic where clever combinations yield powerfully satisfying results.
+    <div id="animated-bg">
+      <div class="bg background"></div>
+      <div class="bg vampire"></div>
+      <div class="bg red"></div>
+      <div class="bg priest"></div>
+      <div class="bg green"></div>
+      <div class="bg blue"></div>
+      <div class="bg golem"></div>
+      <div class="bg cover"></div>
+    </div>
+    <div id="content">
+      <p class="readable" style="visibility:hidden;height:0;">
+        Spellmasons is a magic-blending, tactical roguelike where you use your wit and creativity to survive. Play solo
+        or team up with your friends in online multiplayer, and explore a deep magic system where clever combinations
+        yield powerfully satisfying results!
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/DbPWtmsE448" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <img id="logo" src="spellmasonsLogoWithGlow-ForWeb.png" alt="Spellmasons Logo"
+        style="filter: drop-shadow(5px 5px 15px #000);" />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YykW70Ehu8Y?si=WLu8nNi6Jtyu8JPI"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <iframe src="https://store.steampowered.com/widget/1618380/" frameborder="0" width="646" height="190"></iframe>
       <div class="flex gap-15 justify-center flex-wrap nowrap">
         <a class="" href="https://store.steampowered.com/app/1618380/Spellmasons?utm_source=com&utm_content=homepage">
           <div class="button-wrapper secondary">
-            Steam Page</div>
+            Buy now on Steam!</div>
         </a>
         <a class="" href="presskit.html">
           <div class="button-wrapper secondary">
-            Presskit</div>
-        </a>
-        <a class="twitter-timeline" href="https://twitter.com/spellmasons">
-          <div class="button-wrapper secondary">
-            Tweets by Spellmasons</div>
+            Press Kit</div>
         </a>
       </div>
-    </div>
+      <script src="main.js"> </script>
   </main>
 </body>
 

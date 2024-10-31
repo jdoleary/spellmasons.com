@@ -11,6 +11,7 @@ body {
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	width: 100vw;
+	max-width:100%;
 	height: 100vh;
 	background-color: #111213;
 	/* Remove unnecessary scrollbars */
@@ -201,3 +202,48 @@ iframe {
 #assets img {
 	max-width: 100%;
 }
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg.cover {
+    background-color: #262324;
+    opacity: 0.7;
+  }
+  .bg.background {
+    background-image: url("/ui/bg.png");
+  }
+  .bg.blue {
+    background-image: url("/ui/bg-blue.png");
+  }
+  .bg.golem {
+    background-image: url("/ui/bg-golem.png");
+  }
+  .bg.green {
+    background-image: url("/ui/bg-green.png");
+  }
+  .bg.priest {
+    background-image: url("/ui/bg-priest.png");
+  }
+  .bg.red {
+    background-image: url("/ui/bg-red.png");
+  }
+  .bg.vampire {
+    background-image: url("/ui/bg-vamp.png");
+  }
+  #animated-bg {
+	z-index: -1;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100vw;
+	max-width:100%;
+	height: 100vh;
+	overflow:hidden;
+  }
