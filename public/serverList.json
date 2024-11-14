@@ -36,6 +36,7 @@
         "useEventLogger": true,
         "keepEventsForMillis": 600000,
         "serverStabilityMaxUnits": "1000",
-        "serverStabilityMaxPickups": "500"
+        "serverStabilityMaxPickups": "500",
+        "screenShakeMult": 1
     }
 }
