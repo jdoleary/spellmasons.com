@@ -247,11 +247,3 @@ iframe {
 	height: 100vh;
 	overflow:hidden;
   }
-  .bottom {
-	position: absolute;
-	bottom:8px;
-	left:0;
-	right:0;
-	text-align: center;
-	width:100%;
-  }
