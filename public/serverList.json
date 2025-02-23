@@ -31,7 +31,7 @@
             "region": "Asia"
         }
     ],
-    "message": "Servers are under heavier-than-normal load due to a huge influx of new players! Welcome everyone! I will do what I can to keep the servers healthy, thank you for your patience and enjoy! (I have a youtube video about hosting your own server if you are so inclined)",
+    "message": "Status: Update v1.55.3 broke something so I've reverted to v1.54.2 until I can fix the problem.  Feel free to report any issues you encounter in Discord!",
     "config": {
         "useEventLogger": true,
         "keepEventsForMillis": 600000,
