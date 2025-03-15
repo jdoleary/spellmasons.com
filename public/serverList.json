@@ -31,7 +31,7 @@
             "region": "Asia"
         }
     ],
-    "message": "Status: Update v1.55.3 broke something so I've reverted to v1.54.2 until I can fix the problem.  Feel free to report any issues you encounter in Discord!",
+    "message": "Welcome to Spellmasons! Try out the new multiplayer backend by choosing \"Enhanced Server ( BETA )\" on the left hand side.  Let me know what you think of the performance improvements in Discord!",
     "config": {
         "useEventLogger": true,
         "keepEventsForMillis": 600000,
