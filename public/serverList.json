@@ -31,7 +31,7 @@
             "region": "Asia"
         }
     ],
-    "message": "Welcome to Spellmasons! \"Enhanced Server\" is now in open beta!  If you have any connection problems with the \"Enhanced Server\", Community Servers are still available.  Please let me know what you think of the performance improvements in Discord!",
+    "message": "",
     "config": {
         "useEventLogger": true,
         "keepEventsForMillis": 600000,
