@@ -6,26 +6,6 @@
             "region": "US - east"
         },
         {
-            "name": "Community Server - Shark",
-            "url": "wss://shark-app-ke27n.ondigitalocean.app/",
-            "region": "US - east"
-        },
-        {
-            "name": "Community Server - Walrus",
-            "url": "wss://walrus-app-rumlh.ondigitalocean.app/",
-            "region": "US - west"
-        },
-        {
-            "name": "Community Server - Lion",
-            "url": "wss://lion-app-w5w4c.ondigitalocean.app/",
-            "region": "Europe - Netherlands"
-        },
-        {
-            "name": "Community Server - Leopard",
-            "url": "wss://leopard-app-z7chr.ondigitalocean.app/",
-            "region": "Europe - Germany"
-        },
-        {
             "name": "Community Server - Dolphin",
             "url": "wss://squid-app-r8p8w.ondigitalocean.app/",
             "region": "Asia"
